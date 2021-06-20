@@ -1,0 +1,16 @@
+{
+  "name": "textquality",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "npx parcel build --dist-dir dist src/index.js",
+    "watch": "npx parcel serve --dist-dir dist src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.0.0-beta.2",
+    "text-readability": "^1.0.5"
+  }
+}
