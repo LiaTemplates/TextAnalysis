@@ -1,6 +1,6 @@
 const rs = require('../node_modules/text-readability')
 
-window.textquality = function(fctName, text) {
+window.Textanalysis = function(fctName, text) {
   var full = isUpper(fctName)
   switch(fctName.toLowerCase()) {
     case "automatedreadabilityindex":
@@ -335,7 +335,7 @@ function colemanLiauIndex(text, full) {
 
   if (full) {
     result += p(`This is a grade formula in that a score of 9.3 means that a ninth grader would be able to read the document.
-<a href="https://en.wikipedia.org/wiki/SMOG" rel="nofollow">Wikipedia: SMOG grade</a>`)
+<a href="https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index" rel="nofollow">Wikipedia: Coleman–Liau index</a>`)
   }
 
   return result
